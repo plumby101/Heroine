@@ -86,8 +86,8 @@ body {background: url(http://www.net-a-porter.com/alfresco/nap/webAssets/webPage
 .whitebg {background-color: none !important}
 .ctaArrow {position: relative;bottom:2px;}
 .whitebgTitle {font-family: "ModernNAP-DisplayItalic","MSung PRC Medium"}
-.stepTitle {font-family: "ModernNAP-Display",'MSung PRC Medium', Arial, "Microsoft YaHei", Hei, Hei Ti, SimHei, STXihei, sans-serif !important}
-.productsIntroTitle {width: 96%; padding-left: 2%; font-size: 24px; text-align: center; margin: 75px 0 0 0 ; font-family: "ModernNAP-Subhead",'MSung PRC Medium', Arial, "Microsoft YaHei", Hei, Hei Ti, SimHei, STXihei, sans-serif !important; }
+.stepTitle {font-family: "ModernNAP-Display",'MSung PRC Medium', Arial, "Microsoft YaHei", Hei, Hei Ti, SimHei, STXihei, sans-serif !important; text-align: center;}
+.productsIntroTitle {width: 96%; padding-left: 2%; font-size: 24px; text-align: center; margin: 45px 0 0 0 ; font-family: "ModernNAP-Subhead",'MSung PRC Medium', Arial, "Microsoft YaHei", Hei, Hei Ti, SimHei, STXihei, sans-serif !important; }
 .productsIntroStrapline {width: 96%; padding-left: 2%; font-size: 17px; text-align: center; margin: 2px 0; font-family: "ModernNAP-TextItalic",'MSung PRC Medium', Arial, "Microsoft YaHei", Hei, Hei Ti, SimHei, STXihei, sans-serif !important; }
 .whoAreYou {font-family:"ModernNAP-SuperDisplay" ; font-size: 73px }
 .campaignUpdate  {font-family:"ModernNAP-SuperDisplay" ; font-size: 27px; line-height: 16px; text-transform: uppercase;}
