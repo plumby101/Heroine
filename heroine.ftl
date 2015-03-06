@@ -29,7 +29,7 @@ body {background: url(http://www.net-a-porter.com/alfresco/nap/webAssets/webPage
 .heroineImageHolder {position: absolute; width: 560px; height:316px; overflow: hidden; z-index: 5; top: 0; left:0;}
 .photoRow {display: none; clear:both}
 #row0, #row1, #row2, #row3 {display:block}
-.whitebg {background-color: #ffffff; padding: 0 5px}
+.whitebg {background-color: #ffffff; padding: 0 5px;  text-transform: lowercase; }
 .heroineProductRepeater {width: 230px; margin-right: 7px; height:360px; float:left; position: relative;overflow: hidden; position: relative; text-align: center}
 .heroineProductImage {width: 237px; float:left; margin:0 3px;overflow: hidden;width:230px; height: 265px }
 .heroineProductTitle {font-family: GillSans !important ; font-size: 12px; font-weight: bold; text-align: left; width: 237px;margin:25px 0 0 0; float: left;}
@@ -42,12 +42,12 @@ body {background: url(http://www.net-a-porter.com/alfresco/nap/webAssets/webPage
 .videoAndTileHolder {height: 589px}
 .heroinetitle {position: absolute; top: 18px; width: 100%; height: 30px; font-family: "ModernNAP-Text", 'MSung PRC Medium'; font-size: 24px; text-align: center; text-transform: uppercase;}
 .heroineStrapline { width: 60%; left:20%; font-family: gillsanslight; position: absolute; top: 52px; text-align: center; font-size: 16px}
-.contentslide {width: 950px; height: 600px; position: relative;}
+.contentslide {width: 950px; height: 588px; position: relative;}
 .imagearea1 {position: absolute; top:0; left:0; z-index: 2}
 .imagearea2 {position: absolute; top:0; left:0; z-index: 2}
-.contentslidehashtag {position: absolute; left: 0px; top:210px; padding:0px; width: 100%; z-index: 5; text-align: center; font-size: 74px;font-family: "ModernNAP-DisplayItalic", 'MSung PRC Medium'; text-transform: lowercase; }
+.contentslidehashtag {position: absolute; left: 0px; top:110px; padding:0px; width: 100%; z-index: 5; text-align: center; font-size: 74px;font-family: "ModernNAP-DisplayItalic", 'MSung PRC Medium'; line-height: 76px}
 .contentslideexplanation {position: absolute; left: 25%; top:305px; padding:0px; width: 50%; z-index: 5; text-align: center;  font-size: 17px;font-family: "ModernNAP-TextItalic",'MSung PRC Medium', Arial, "Microsoft YaHei", Hei, Hei Ti, SimHei, STXihei, sans-serif !important }
-.contentslidereadmore  {position: absolute; left: 0px; top:450px; padding:0px; width: 100%; z-index: 5; text-align: center;  font-size: 13px;font-family: GillSansBold; text-transform: uppercase; }
+.contentslidereadmore  {position: absolute; left: 0px; top:510px; padding:0px; width: 100%; z-index: 5; text-align: center;  font-size: 13px;font-family: GillSansBold; text-transform: uppercase; }
 .contentWishList {position: absolute; left: 0px; top:480px; padding:0px; width: 100%; z-index: 5; text-align: center;  font-size: 13px;font-family: GillSansBold; text-transform: uppercase; }
 .contentcarouselholder {position: relative; width: 100%; }
 .leftarrowcontent {width: 26px; height: 500px; display: block; background: url(http://www.net-a-porter.com/alfresco/nap/webAssets/webPage/Adidas-McCartney/content-arrow_left@2x.png) no-repeat center;  position: absolute; top:0; left: 0; background-size: 50% ; z-index: 10; display: none}
@@ -87,15 +87,15 @@ body {background: url(http://www.net-a-porter.com/alfresco/nap/webAssets/webPage
 .ctaArrow {position: relative;bottom:2px;}
 .whitebgTitle {font-family: "ModernNAP-DisplayItalic","MSung PRC Medium"}
 .stepTitle {font-family: "ModernNAP-Display",'MSung PRC Medium', Arial, "Microsoft YaHei", Hei, Hei Ti, SimHei, STXihei, sans-serif !important}
-.productsIntroTitle {width: 96%; padding-left: 2%; font-size: 24px; text-align: center; margin: 25px 0 0 0 ; font-family: "ModernNAP-Subhead",'MSung PRC Medium', Arial, "Microsoft YaHei", Hei, Hei Ti, SimHei, STXihei, sans-serif !important; }
+.productsIntroTitle {width: 96%; padding-left: 2%; font-size: 24px; text-align: center; margin: 75px 0 0 0 ; font-family: "ModernNAP-Subhead",'MSung PRC Medium', Arial, "Microsoft YaHei", Hei, Hei Ti, SimHei, STXihei, sans-serif !important; }
 .productsIntroStrapline {width: 96%; padding-left: 2%; font-size: 17px; text-align: center; margin: 2px 0; font-family: "ModernNAP-TextItalic",'MSung PRC Medium', Arial, "Microsoft YaHei", Hei, Hei Ti, SimHei, STXihei, sans-serif !important; }
 .whoAreYou {font-family:"ModernNAP-SuperDisplay" ; font-size: 73px }
-.campaignUpdate  {font-family:"ModernNAP-SuperDisplay" ; font-size: 27px }
-.campaignUpdateText { font-family: GillSans; font-size: 14px}
-.termsText {font-family: GillSans; font-size: 10px; width: 100%; float: left; margin: 0 0 20px 0}
-.UNtext { font-family:"ModernNAP-Subhead", 'MSung PRC Medium' ; font-size: 24px; width: 100%; margin:20px 0 15px 0; }
-.UNtextExp { font-family: GillSans; font-size: 14px; width: 100%}
-.shareText { font-family:"ModernNAP-Subhead", 'MSung PRC Medium' ; font-size: 24px; width: 100%; margin:20px 0 15px 0; }
+.campaignUpdate  {font-family:"ModernNAP-SuperDisplay" ; font-size: 27px; line-height: 16px; text-transform: uppercase;}
+.campaignUpdateText { font-family: GillSans; font-size: 14px; text-transform: none}
+.termsText {font-family: GillSans; font-size: 10px; width: 100%; float: left; margin: 0 0 20px 0; text-align: center;}
+.UNtext { font-family:"ModernNAP-Subhead", 'MSung PRC Medium' ; font-size: 24px; width: 100%; margin:20px 0 15px 0; text-align: center; text-transform: uppercase;}
+.UNtextExp { font-family: GillSans; font-size: 14px; width: 100%; text-align: center;}
+.shareText { font-family:"ModernNAP-Subhead", 'MSung PRC Medium' ; font-size: 24px; width: 100%; margin:20px 0 15px 0;text-align: center; text-transform: uppercase;}
 
 @media (max-width: 950px) {
 
@@ -127,7 +127,7 @@ body {background: url(http://www.net-a-porter.com/alfresco/nap/webAssets/webPage
   .cashrocketImageRepeater1 {width: 96%;  float:left;height: auto; padding: 2%  }
   .cashrocketImagesCaption, .cashrocketImageHoverBox {display: none}
   .contentslideexplanation {top:285px}
-  .contentslidereadmore {top:380px;}
+  .contentslidereadmore {top:430px;}
   .cashrocketInstaImageHolder3, .cashrocketInstaImageHolder2, .cashrocketInstaImageHolder1 {width: 100%;height: auto; position: relative;}
 
   .advertMobile {width: 60%;margin: 0 auto 30px auto;border: 1px solid #cccccc;border-radius: 4px;font-family: gillsanslight;font-size: 13px;color: #000000;display: block;float: left;margin-left: 15%;padding: 5%;text-align: center;}
@@ -151,8 +151,9 @@ body {background: url(http://www.net-a-porter.com/alfresco/nap/webAssets/webPage
   .imagearea2 { position: relative; top:auto; left:auto; z-index: 2; float: left; background-size: 100% auto}
   .contentslidetext {position: relative; left: auto; top:auto; padding:0px; background-color: #ffffff; border: none; height: auto; width: 97%; z-index: 5; float: left ;  margin-top: 20px}
   .contentsliderVideo {width: 70%; margin-left: 15%; padding-bottom: 46.8%; position: relative;height: 0; margin-top: 1%}
-  .contentcarouselholder {position: relative; width: 96%; left: 2%; float: left; height: 510px; background: url(/alfresco/nap/webAssets/webPage/Heroine/mobile_header.jpg) top no-repeat;}
-  .contentslidehashtag {font-size: 38px; top: 110px; line-height: 75px}
+  .contentcarouselholder {position: relative; width: 96%; left: 2%; float: left; height: 620px; background: url(/alfresco/nap/webAssets/webPage/Heroine/mobile_header.jpg) top no-repeat;}
+  .contentslidehashtag {font-size: 38px; top: 187px; line-height: 32px}
+  .whoAreYou {background-color: #ffffff; font-size: 18px; padding:5px;}
   .contentslideexplanation {width: 95%; left:2.5%;}
   .bodyDivider {display: none}
 
@@ -188,7 +189,8 @@ body {background: url(http://www.net-a-porter.com/alfresco/nap/webAssets/webPage
 @media (max-width: 450px) {
   .videooverlaytitle {font-size: 22px}
   .videooverlaysubtitle {font-size: 22px}
-  .contentslidereadmore {top:420px;}
+  .contentslidereadmore {top:525px;}
+  .contentWishList {top:505px;}
   .furtherExplanation {width: 100%; height: 0px; overflow: hidden;border-bottom: 1px solid #dddddd;}
   .stepOne {width: 90%; float: left ; text-align: center; margin: 0 5% }
   .stepTwo {width: 90%;  float: left; text-align: center; margin: 20px 5% }
@@ -215,9 +217,9 @@ body {background: url(http://www.net-a-porter.com/alfresco/nap/webAssets/webPage
         </div>
   </div>
       </div>
-
+<div class="termsText">${message("terms_" + language)} </div>
     <div class="furtherExplanation">
-      <div class="termsText">${message("terms_" + language)} </div>
+      
       <div class="UNtext">${message("UN.text_" + language)} </div>
 <div class="UNtextExp">${message("UN.tex.exp_" + language)} </div>
 <div class="shareText">${message("share.text_" + language)} </div>
